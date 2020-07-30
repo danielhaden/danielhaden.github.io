@@ -8,13 +8,13 @@ disqus_shortname: hadihariri
 images:           http://hadihariri.com/images
 # Owner/author information
 owner:
-  name:           Hadi Hariri
+  name:           Daniel Haden
   avatar:         bio.png
-  bio:            "Never believed in elevator pitches"
-  email:          mail@hadihariri.com
+  bio:            "Ph.D. candidate working on applications of graph theory to network security."
+  email:          daniel.haden@ucdenver.edu
   # Social networking links are used in author-bio sidebar. Update and remove as you like.
-  twitter:        hhariri
-  github:         hhariri
+  #twitter:        hhariri
+  github:         danielhaden
   linkedin:       pub/hadi-hariri/83/68a/b03
   # For Google Authorship https://plus.google.com/authorship
 
