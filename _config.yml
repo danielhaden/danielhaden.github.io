@@ -1,21 +1,21 @@
-title:            Hadi Hariri
+title:            Daniel Haden
 description:      Writings
 # Your site's domain goes here. Leave localhost server or blank when working locally.
 baseurl:
-url:              https://hadihariri.com
-disqus_shortname: hadihariri
+url:              https://danielhaden.github.io/
+#disqus_shortname: hadihariri
 
-images:           http://hadihariri.com/images
+images:           https://danielhaden.github.io/images
 # Owner/author information
 owner:
   name:           Daniel Haden
-  avatar:         bio.png
+  avatar:         bio-photo.png
   bio:            "Ph.D. candidate working on applications of graph theory to network security."
   email:          daniel.haden@ucdenver.edu
   # Social networking links are used in author-bio sidebar. Update and remove as you like.
   #twitter:        hhariri
   github:         danielhaden
-  linkedin:       pub/hadi-hariri/83/68a/b03
+  linkedin:       https://www.linkedin.com/in/daniel-haden-87b2b3121
   # For Google Authorship https://plus.google.com/authorship
 
 # Analytics and webmaster tools stuff goes here
@@ -39,7 +39,7 @@ links:
     url: /courses/
  
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:    Europe/Madrid
+timezone:    America/Denver
 future:      true
 highlighter:    rouge
 markdown:    kramdown
