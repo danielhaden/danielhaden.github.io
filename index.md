@@ -1,7 +1,7 @@
 ---
 layout: home
-description: "Hadi Hariri's Web Site"
-tags: [software development, hadi hariri, web, architecture]
+description: "Daniel Haden's Web Site"
+tags: [software development, daniel haden, network security, graph theory, computer network]
 image:
   feature: texture-feature-01.jpg
   credit: Texture Lovers

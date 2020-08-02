@@ -3,7 +3,7 @@ description:      Writings
 # Your site's domain goes here. Leave localhost server or blank when working locally.
 baseurl:
 url:              https://danielhaden.github.io/
-#disqus_shortname: hadihariri
+#disqus_shortname:
 
 images:           https://danielhaden.github.io/images
 # Owner/author information
@@ -19,10 +19,10 @@ owner:
   # For Google Authorship https://plus.google.com/authorship
 
 # Analytics and webmaster tools stuff goes here
-google_analytics: UA-381926-1
-google_verify:      
+#google_analytics: UA-381926-1
+#google_verify:
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-bing_verify:        
+#bing_verify:
 
 # Links to include in top navigation
 # For external links add external: true
