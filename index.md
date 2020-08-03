@@ -5,5 +5,4 @@ tags: [software development, daniel haden, network security, graph theory, compu
 image:
   feature: banners/texture3.png
   credit: Ghiffari Haris
-  #creditlink: http://texturelovers.com
 ---
