@@ -4,8 +4,8 @@ permalink: /about/
 title: About your host
 tags: [about]
 image:
-  feature: texture1.png
-  #credit: Texture Lovers
+  feature: texture4.png
+  credit: Ghiffari Haris
   #creditlink: http://texturelovers.com
 ---
 

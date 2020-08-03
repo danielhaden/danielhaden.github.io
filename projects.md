@@ -5,9 +5,9 @@ title: Projects
 description: "Some projects I've created"
 tags: [oss, projects]
 image:
-  feature: texture-feature-02.jpg
-  credit: Texture Lovers
-  creditlink: http://texturelovers.com
+  feature: texture5.png
+  credit: Ghiffari Haris
+  #creditlink: http://texturelovers.com
 ---
 
 <section id="table-of-contents" class="toc">
