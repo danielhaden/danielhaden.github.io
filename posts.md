@@ -6,7 +6,7 @@ tagline: A List of Posts
 tags: [blog]
 
 image:
-  feature: texture6.png
+  feature: banners/texture6.png
   credit: Ghiffari Haris
 ---
 
