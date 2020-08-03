@@ -6,10 +6,16 @@ tags: [about]
 image:
   feature: texture4.png
   credit: Ghiffari Haris
-  #creditlink: http://texturelovers.com
 ---
 
-Developer and creator of many things [OSS](http://hadihariri.com/projects), he has been programming in one way, shape or form since the age of 12. Author of various publications and courses, Hadi has been speaking at industry events for nearly two decades. 
-Host to [Talking Kotlin](http://talkingkotlin.com), he works at [JetBrains](http://www.jetbrains.com) leading the Developer Advocacy team, and spends as much time as he can writing code.
+I'm currently a developer/data manager in the Division of Infectious Diseases in the CU School of Medicine. Most of 
+my work involves writing and maintaining secure,robust applications for handling electronic health record (EHRs).
 
+I'm also a second-year Ph.D. candidate in the CU Department of Computer Science (different campus). I've been a 
+teaching assistant for courses in discrete mathematics and software engineering but I'm exclusively focused on
+research now.
+
+My research interests touch on topics in graph theory, computer networks, and simulation. I have a particular
+interest in network architecture and clean-slate design for the Internet. I'm currently working with Profs. [Ellen Gethner](http://cse.ucdenver.edu/~gethner/) and [Haadi Jafarian](http://cse.ucdenver.edu/~jafariah/) on deception
+ strategies in cyber security.
 

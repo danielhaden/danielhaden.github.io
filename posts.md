@@ -8,7 +8,6 @@ tags: [blog]
 image:
   feature: texture6.png
   credit: Ghiffari Haris
-  #creditlink: http://texturelovers.com
 ---
 
 ---
