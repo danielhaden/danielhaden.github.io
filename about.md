@@ -4,7 +4,7 @@ permalink: /about/
 title: About your host
 tags: [about]
 image:
-  feature: mainpage_background.png
+  feature: texture1.png
   #credit: Texture Lovers
   #creditlink: http://texturelovers.com
 ---
