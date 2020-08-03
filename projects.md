@@ -21,28 +21,26 @@ image:
 </section><!-- /#table-of-contents -->
 
 
-You can see most of my OSS projects on [GitHub](https://github.com/hhariri), but here are a few that I've created and/or heavily contributed to
+You can see most of my software projects on [GitHub](https://github.com/daniel haden). Here are a few that I'm currently working on:
 
-## EasyHttp
+## SDN POX Lab
 
-A .NET client for making JSON/XML requests to web services. Includes support for static and dynamic types, as well
-as support for all HTTP verbs including GET, POST, PUT, DELETE, PATCH and OPTIONS. [More](https://github.com/hhariri/easyhttp)
+A series of tutorials on writing custom POX controller components and testing them on a Mininet-emulated network. The series
+will go from covering basic network tasks to emulating large-scale networks, simulating traffic flows and distributed network attacks.
+[More](https://github.com/danielhaden)
 
-## YouTrackSharp
+## PredictIt Visor
 
-A .NET client for interacting with YouTrack. [More](https://github.com/jetbrains/youtracksharp)
+Coming soon... [More](https://github.com/danielhaden)
 
-## Spek
+## CAIDA Traceroute Interface and Visualization Tools
 
-A specification framework for the JVM. [More](https://jetbrains.github.io/spek)
+Coming soon... [More](https://github.com/danielhaden)
 
-## Wasabi 
+## Purely Functional Structures in Scala
 
-An HTTP framework for the JVM in the making. Inspired by Sinatra et al. [More](https://github.com/hhariri/wasabi)
+Coming soon... [More](https://github.com/danielhaden)
 
-## Indy Project
+## Testing Framework for VBA Applications
 
-Over 120 components implementing RFC protocols in Delphi. Wrote and co-coordinated the project for many years. The components
-were included in Delphi and Kylix. [More](http://www.indyproject.org)
-
-
+Coming soon... [More](https://github.com/danielhaden)
