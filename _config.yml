@@ -9,7 +9,7 @@ images:           https://danielhaden.github.io/images
 # Owner/author information
 owner:
   name:           Daniel Haden
-  avatar:         bio-pic.png
+#  avatar:
   bio:            "Data manager/developer at the CU School of Medicine. Researching network security and graph theory."
   email:          daniel.haden@ucdenver.edu
   # Social networking links are used in author-bio sidebar. Update and remove as you like.

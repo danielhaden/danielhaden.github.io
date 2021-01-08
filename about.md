@@ -5,7 +5,6 @@ title: About Me
 tags: [about]
 image:
   feature: banners/texture4.png
-  credit: Ghiffari Haris
 ---
 
 I'm currently a developer/data manager in the Division of Infectious Diseases in the CU School of Medicine. Most of 
