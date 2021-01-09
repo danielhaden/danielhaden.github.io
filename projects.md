@@ -8,25 +8,6 @@ image:
   feature: banners/texture5.png
 ---
 
-[comment]: <> (<section id="table-of-contents" class="toc">)
-
-[comment]: <> (  <header>)
-
-[comment]: <> (    <h3 >Conpsdents</h3>)
-
-[comment]: <> (  </header>)
-
-[comment]: <> (<div id="drawer" markdown="1">)
-
-[comment]: <> (*  Auto generated table of contents)
-
-[comment]: <> ({:toc})
-
-[comment]: <> (</div>)
-
-[comment]: <> (</section><!-- /#table-of-contents -->)
-
-
 You can see most of my software projects on [GitHub](https://github.com/daniel haden). Here are a few that I'm currently working on:
 
 ## SDN POX Lab
