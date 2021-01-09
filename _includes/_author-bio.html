@@ -8,9 +8,10 @@
 <!--    {% endif %}-->
     <h3>{{ site.owner.name }}</h3>
     <p>{{ site.owner.bio }}</p>
-    <a href="mailto:contact@danielhaden.com">{{ site.owner.email}}</a>
+<!--    <a href="mailto:contact@danielhaden.com">{{ site.owner.email}}</a>-->
 {% endif %}
 
+{% if site.owner.email %}}<a href="mailto:contact@danielhaden.com" class="author-social" target="_blank"><i class="icon-steam"></i> Email</a>{% endif %}
 {% if site.owner.twitter %}<a href="http://twitter.com/{{ site.owner.twitter }}" class="author-social" target="_blank"><i class="icon-twitter"></i> Twitter</a>{% endif %}
 {% if site.owner.google_plus %}<a href="http://plus.google.com/+{{ site.owner.google_plus }}" class="author-social" target="_blank"><i class="icon-google-plus"></i> Google+</a>{% endif %}
 {% if site.owner.linkedin %}<a href="http://linkedin.com/{{ site.owner.linkedin }}" class="author-social" target="_blank"><i class="icon-linkedin"></i> LinkedIn</a>{% endif %}
