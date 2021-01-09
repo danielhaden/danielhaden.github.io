@@ -6,8 +6,6 @@ description: "Some projects I've created"
 tags: [oss, projects]
 image:
   feature: banners/texture5.png
-  credit: Ghiffari Haris
-  #creditlink: http://texturelovers.com
 ---
 
 <section id="table-of-contents" class="toc">
