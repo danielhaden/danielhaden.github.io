@@ -11,14 +11,14 @@ layout: none
 <id>{{ site.baseurl }}/</id>
 <author>
   <name>{{ site.owner.name }}</name>
-  <uri>http://hadihariri.com/</uri>
+  <uri>http://danielhaden.com/</uri>
   <email>{{ site.owner.email }}</email>
 </author>
 {% for post in site.posts limit:20 %}
 
 <entry>
   <title type="html"><![CDATA[{{ post.title | cdata_escape }}]]></title>
-  <link rel="alternate" type="text/html" href="http://hadihariri.com{{ post.url }}" />
+  <link rel="alternate" type="text/html" href="http://danielhaden.com{{ post.url }}" />
   <id>{{ site.baseurl }}{{ post.id }}</id>
   {% if post.modified %}<updated>{{ post.modified | to_xmlschema }}T00:00:00-00:00</updated>
   <published>{{ post.date | date_to_xmlschema }}</published>
