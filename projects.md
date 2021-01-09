@@ -8,15 +8,23 @@ image:
   feature: banners/texture5.png
 ---
 
-<section id="table-of-contents" class="toc">
-  <header>
-    <h3 >Conpsdents</h3>
-  </header>
-<div id="drawer" markdown="1">
-*  Auto generated table of contents
-{:toc}
-</div>
-</section><!-- /#table-of-contents -->
+[comment]: <> (<section id="table-of-contents" class="toc">)
+
+[comment]: <> (  <header>)
+
+[comment]: <> (    <h3 >Conpsdents</h3>)
+
+[comment]: <> (  </header>)
+
+[comment]: <> (<div id="drawer" markdown="1">)
+
+[comment]: <> (*  Auto generated table of contents)
+
+[comment]: <> ({:toc})
+
+[comment]: <> (</div>)
+
+[comment]: <> (</section><!-- /#table-of-contents -->)
 
 
 You can see most of my software projects on [GitHub](https://github.com/daniel haden). Here are a few that I'm currently working on:
