@@ -7,7 +7,6 @@ tags: [blog]
 
 image:
   feature: banners/texture6.png
-  credit: Ghiffari Haris
 ---
 
 ---
