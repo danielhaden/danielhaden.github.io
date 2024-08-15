@@ -3,9 +3,7 @@
 <head>
   <meta charset="utf-8"/>
   <title>◊(hash-ref metas 'title)</title>
-  <link rel="stylesheet" href="css/tufte.css"/>
-  <link rel="stylesheet" href="css/joel.css"/>
-  <link rel="alternate" type="application/atom+xml" title="Atom feed" href="feed.xml" />
+  <link rel="stylesheet" href="css/daniel.css"/>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>daniel haden</title>
 
@@ -20,7 +18,7 @@
       <a href="rss.xml">rss</a>
       <a href="https://www.linkedin.com/in/daniel-haden-87b2b3121/">linkedin</a>
     </p>
-  </div>
+
   <div id="main">
     <h3>About Me</h3>
         ◊(map ->html (select-from-doc 'body here))
@@ -31,19 +29,20 @@
       <li>Github: <a href="https://github.com/danielhaden">https://github.com/danielhaden</a></li>
       <li>LinkedIn: <a href="https://www.linkedin.com/in/daniel-haden-87b2b3121">https://www.linkedin.com/in/daniel-haden-87b2b3121</a></li>
 </ul>
-    <h4>Projects:</h4>
+    <h4>Projects & Interests:</h4>
     <ul>
       <li>New-Old Books Digital Library</li>
       <li>Antarctic TMA Videos</li>
       <li>Human Aided Machine Translation Software</li>
-      <li>AI Art</li>
+      <li>Type Design</li>
     
-    <h4>Recent Articles</h4>
-    <h4>Links:</h4>
+       <h4>Links:</h4>
     <ul>
       <li>Xorvoid</li>
       <li>Dmitrii Kovanikov</li>
-	</ul>
+      <li>Cavedoni</li>
+      <li>Matthew Butterick</li>
+    </ul>
    </div>
 </body>
 </html>

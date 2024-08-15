@@ -2,11 +2,6 @@
 
 *(A test Pollen site: version 0.25)*
 
-I’ve created this site to experiment with [making websites that are also printed books](https://thelocalyarn.com/excursus/secretary/posts/web-books.html) using [Pollen](http://pollenpub.com), as well as to help explain Pollen to people who might be interested in using it for themselves. The [official Pollen documentation](http://pkg-build.racket-lang.org/doc/pollen/index.html) is well done and improving all the time, and you should really start by reading it thoroughly. But a quasi-guided tour through a simple working site might help put the pieces together, and illustrate the benefits of the Pollen system.
-
-You can see the site live at <https://thelocalyarn.com/excursus/secretary>. While browsing there, be sure to click on the “◊ Pollen Source” links at the top of the individual pages to see the Pollen markup that was used to generate that page.
-
-Thanks to [Matthew Butterick](http://typographyforlawyers.com/about.html) and [Malcolm Still](http://mstill.io) for their help with my Racket and Pollen questions.
 
 ### Support
 
@@ -17,7 +12,7 @@ If you find this project helpful, consider chipping a few bucks towards the auth
 ## Setup
 
 1. Install Pollen ([instructions](http://pkg-build.racket-lang.org/doc/pollen/Installation.html))
-2. (Optional) To be able to generate PDFs as well as HTML, you should have a working installation of LaTeX (specifically `xelatex`) and the [Tufte-Latex classes](https://tufte-latex.github.io/tufte-latex/) installed. If you're on a Mac, installing [MacTeX](http://tug.org/mactex/) will satisfy both of these. (Note, if your shell is something other than bash, you'll need to take steps to ensure `/Library/TeX/texbin` is on your PATH.) Also see the note in the [LaTeX/PDF](#latexpdf-support) section (further down) on specifying fonts that you have installed on your system, otherwise PDF builds may fail.
+n2. (Optional) To be able to generate PDFs as well as HTML, you should have a working installation of LaTeX (specifically `xelatex`) and the [Tufte-Latex classes](https://tufte-latex.github.io/tufte-latex/) installed. If you're on a Mac, installing [MacTeX](http://tug.org/mactex/) will satisfy both of these. (Note, if your shell is something other than bash, you'll need to take steps to ensure `/Library/TeX/texbin` is on your PATH.) Also see the note in the [LaTeX/PDF](#latexpdf-support) section (further down) on specifying fonts that you have installed on your system, otherwise PDF builds may fail.
 3. Clone or download this repo
 4. `raco pollen start` from the main folder, then point your browser to `http://localhost:8080`
 
