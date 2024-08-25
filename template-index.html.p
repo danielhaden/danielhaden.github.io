@@ -5,6 +5,7 @@
   <title>◊(hash-ref metas 'title)</title>
   <link rel="stylesheet" href="css/daniel.css"/>
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  
   <title>daniel haden</title>
 
 </head>
@@ -36,7 +37,7 @@
       <li>Human Aided Machine Translation Software</li>
       <li>Type Design</li>
     
-       <h4>Links:</h4>
+       <h4>Links:</h4>xs
     <ul>
       <li>Xorvoid</li>
       <li>Dmitrii Kovanikov</li>
