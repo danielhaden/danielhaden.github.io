@@ -1,0 +1,30 @@
+html {
+    overflow-y: scroll
+}
+#main,
+#header,
+aside {
+    max-width: 750px;
+    margin: 0 auto;
+    padding: 0;
+  }
+
+a {
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+h3 {
+    font-size:18 px;
+}
+
+.title {
+    font-family: "VT323";
+    font-size: 44px;
+}
+
+.grayscale {
+    font-family: Cardo
+}
