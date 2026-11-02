@@ -1,0 +1,8 @@
+# Pollen cache
+compiled/
+
+# Rendered pages (built in CI); the template is source
+/*.html
+!/template.html
+
+.DS_Store

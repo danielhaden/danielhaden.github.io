@@ -1,2 +1,37 @@
 # danielhaden.github.io
-Personal website
+
+Personal website, written in [Pollen](https://docs.racket-lang.org/pollen/)
+and deployed to GitHub Pages at <https://danielhaden.github.io>.
+
+Only the Pollen sources are committed. On every push to `main`, the workflow in
+`.github/workflows/deploy.yml` installs Racket and Pollen, renders the site,
+and publishes it. In the repository settings, **Pages → Source** must be set to
+**GitHub Actions**.
+
+## Layout
+
+- `*.html.pm` — one file per page, in Pollen markup
+- `index.ptree` — the pages shown in the navigation bar, in order
+- `template.html` — the page layout shared by every page
+- `pollen.rkt` — tag functions (`◊section`, `◊link`, the navigation bar)
+- `style.css` — the stylesheet
+
+## Working locally
+
+Preview with live re-rendering at <http://localhost:8080>:
+
+```sh
+raco pollen start
+```
+
+Render everything once (what CI does):
+
+```sh
+raco pollen render -r .
+```
+
+## Adding a page
+
+1. Create `name.html.pm` starting with `#lang pollen` and
+   `◊(define-meta title "Name")`.
+2. Add `name.html` to `index.ptree` if it should appear in the navigation bar.
