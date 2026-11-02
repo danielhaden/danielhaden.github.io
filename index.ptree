@@ -1,5 +1,10 @@
 #lang pollen
 
-◊; Pages shown in the navigation bar, in order. Add each new page here.
+◊; Every page on the site. Top-level pages appear in the navigation bar, in
+◊; order; pages nested under one (like a notebook under notebooks.html) are
+◊; rendered but kept out of the bar.
 index.html
+◊notebooks.html{
+  perspectivities-and-projectivities.html
+}
 about.html

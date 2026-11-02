@@ -34,4 +34,7 @@ raco pollen render -r .
 
 1. Create `name.html.pm` starting with `#lang pollen` and
    `◊(define-meta title "Name")`.
-2. Add `name.html` to `index.ptree` if it should appear in the navigation bar.
+2. Add `name.html` to `index.ptree`: at the top level to put it in the
+   navigation bar, or nested under a section page (as the notebooks are under
+   `notebooks.html`) to keep it out of the bar. CI renders only pages listed
+   there.

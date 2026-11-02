@@ -53,11 +53,14 @@
 (define (page-title page)
   (or (select-from-metas 'title (get-metas page)) (symbol->string page)))
 
-;; Top navigation bar; marks the current page.
+;; Top navigation bar: the top-level pages of index.ptree. Marks the current
+;; page, or its section when the page is nested under one.
 (define (site-nav here)
+  (define pt (site-pagetree))
+  (define section (or (parent here pt) 'pagetree-root))
   (->html
    `(nav ((class "site-nav"))
-         ,@(for/list ([page (in-list (pagetree->list (site-pagetree)))])
+         ,@(for/list ([page (in-list (children 'pagetree-root pt))])
              `(a ((href ,(symbol->string page))
-                  ,@(if (eq? page here) '((aria-current "page")) '()))
+                  ,@(if (memq page (list here section)) '((aria-current "page")) '()))
                  ,(page-title page))))))
