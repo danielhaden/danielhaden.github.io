@@ -4,14 +4,13 @@
 
 ◊h1{Daniel Haden}
 
-◊p[#:class "lede"]{A short line about who you are and what you work on.}
+◊p[#:class "lede"]{Software Engineer working in healthcare and retail pharmacy. }
 
-Welcome. This is a placeholder introduction — replace it with a paragraph or two about yourself.
 
 ◊section{Projects}
 
 ◊ul{
-  ◊li{◊link["https://github.com/danielhaden"]{Something on GitHub} — a one-line description.}
+  ◊li{◊link["https://github.com/danielhaden/prism"]{Prism} — Desktop app for experimenting with projective geometry.}
 }
 
 ◊section{Elsewhere}
