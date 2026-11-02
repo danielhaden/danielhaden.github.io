@@ -1,0 +1,5 @@
+#lang pollen
+
+◊; Pages shown in the navigation bar, in order. Add each new page here.
+index.html
+about.html
