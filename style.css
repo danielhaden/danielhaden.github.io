@@ -63,6 +63,26 @@ li { margin-bottom: .35rem; }
 .lede { font-size: 1.2rem; color: var(--muted); font-style: italic; }
 code, pre { font-family: ui-monospace, Menlo, monospace; font-size: .85em; }
 
+/* Images never overflow the text column */
+img { max-width: 100%; height: auto; }
+
+/* Figures, with captions numbered per page */
+main { counter-reset: figure; }
+figure { margin: 2rem 0; text-align: center; }
+figure img { display: block; margin: 0 auto; }
+figure > p { margin: 0; }  /* Pollen's paragraph pass wraps the img in a <p> */
+figcaption {
+  counter-increment: figure;
+  margin-top: .5rem;
+  color: var(--muted);
+  font-size: .9rem;
+}
+figcaption::before {
+  content: "Fig " counter(figure) ". ";
+  font-weight: 600;
+  color: var(--ink);
+}
+
 footer {
   margin-top: 4rem;
   padding-top: 1rem;

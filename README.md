@@ -13,7 +13,7 @@ and publishes it. In the repository settings, **Pages → Source** must be set t
 - `*.html.pm` — one file per page, in Pollen markup
 - `index.ptree` — the pages shown in the navigation bar, in order
 - `template.html` — the page layout shared by every page
-- `pollen.rkt` — tag functions (`◊section`, `◊link`, the navigation bar)
+- `pollen.rkt` — tag functions (`◊section`, `◊link`, `◊figure`, the navigation bar)
 - `style.css` — the stylesheet
 
 ## Working locally
@@ -38,3 +38,16 @@ raco pollen render -r .
    navigation bar, or nested under a section page (as the notebooks are under
    `notebooks.html`) to keep it out of the bar. CI renders only pages listed
    there.
+
+## Figures
+
+Put images in `figures/` (SVG, PNG, JPG or WebP all work), then:
+
+```
+◊figure["figures/pinhole-camera.webp" #:alt "Pinhole camera"]{Pinhole camera}
+```
+
+The braces hold the caption, which is numbered automatically per page
+("Fig 1.", "Fig 2.", …). Leave the braces off for an unnumbered image.
+Images shrink to fit the text column on narrow screens.
+

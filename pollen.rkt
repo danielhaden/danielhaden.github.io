@@ -44,6 +44,12 @@
 (define (link url . xs)
   `(a ((href ,url)) ,@xs))
 
+;; ◊figure["figures/pinhole-camera.webp" #:alt "..."]{Caption}
+;; Captioned figures are numbered per page by CSS ("Fig 1.", "Fig 2.", ...).
+(define (figure src #:alt [alt ""] . caption)
+  `(figure (img ((src ,src) (alt ,alt)))
+           ,@(if (null? caption) '() `((figcaption ,@caption)))))
+
 ;; ---------------------------------------------------------------------
 ;; Navigation, built from index.ptree.
 
